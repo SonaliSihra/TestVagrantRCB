@@ -2,20 +2,20 @@
 <testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-19T16:07:41 IST" name="Command line suite" finished-at="2022-11-19T16:07:41 IST" duration-ms="45">
+  <suite started-at="2022-11-19T16:42:24 IST" name="Command line suite" finished-at="2022-11-19T16:42:24 IST" duration-ms="47">
     <groups>
     </groups>
-    <test started-at="2022-11-19T16:07:41 IST" name="Command line test" finished-at="2022-11-19T16:07:41 IST" duration-ms="45">
+    <test started-at="2022-11-19T16:42:24 IST" name="Command line test" finished-at="2022-11-19T16:42:24 IST" duration-ms="47">
       <class name="TestRCB.TestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:07:41 IST" name="setup" finished-at="2022-11-19T16:07:41 IST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:42:24 IST" name="setup" finished-at="2022-11-19T16:42:24 IST" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyForeignPlayer()[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:07:41 IST" name="verifyForeignPlayer" description="Verify that the team has only 4 foreign player" finished-at="2022-11-19T16:07:41 IST" duration-ms="17" status="PASS">
+        <test-method signature="verifyForeignPlayer()[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:42:24 IST" name="verifyForeignPlayer" description="Verify that the team has only 4 foreign player" finished-at="2022-11-19T16:42:24 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForeignPlayer -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:07:41 IST" name="getResult" finished-at="2022-11-19T16:07:41 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:42:24 IST" name="getResult" finished-at="2022-11-19T16:42:24 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyWicketKeeper()[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:07:41 IST" name="verifyWicketKeeper" description="Verify that there is at least one wicket keeper" finished-at="2022-11-19T16:07:41 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyWicketKeeper()[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:42:24 IST" name="verifyWicketKeeper" description="Verify that there is at least one wicket keeper" finished-at="2022-11-19T16:42:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWicketKeeper -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:07:41 IST" name="getResult" finished-at="2022-11-19T16:07:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:42:24 IST" name="getResult" finished-at="2022-11-19T16:42:24 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:07:42 IST" name="tearDown" finished-at="2022-11-19T16:07:42 IST" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestRCB.TestCase@23fe1d71]" started-at="2022-11-19T16:42:25 IST" name="tearDown" finished-at="2022-11-19T16:42:25 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
