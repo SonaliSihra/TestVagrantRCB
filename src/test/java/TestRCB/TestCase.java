@@ -7,7 +7,6 @@ import org.json.simple.JSONArray;
 import org.json.simple.parser.*;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
-
 import java.io.FileReader;
 import java.util.Iterator;
 
@@ -45,8 +44,6 @@ public class TestCase extends BaseTest {
     public void verifyWicketKeeper() {
 
         test = extent.createTest("Verify that there is at least one wicket keeper");
-
-
         int wicketKeeperCount = 0;
 
         JSONParser parser = new JSONParser();

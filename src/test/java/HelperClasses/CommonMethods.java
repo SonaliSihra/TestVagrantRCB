@@ -43,7 +43,6 @@ public class CommonMethods {
         } catch (AssertionError e) {
             throw e;
         }
-
     }
 
     public static void verifyNotNull(Object actual, String message) {
@@ -52,7 +51,6 @@ public class CommonMethods {
         } catch (AssertionError e) {
             throw e;
         }
-
     }
 
     public static void verifyEquals(Object actual, Object expected, String message) {
@@ -71,7 +69,6 @@ public class CommonMethods {
         } catch (AssertionError e) {
             throw e;
         }
-
     }
 
     public static void verifyTrue(boolean condition, String message) {
@@ -80,7 +77,6 @@ public class CommonMethods {
         } catch (AssertionError e) {
             throw e;
         }
-
     }
 
 }
