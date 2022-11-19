@@ -1,11 +1,8 @@
 package HelperClasses;
 
-import groovy.json.JsonException;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 
-import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,7 +12,6 @@ public class CommonMethods {
     Map<String, String> getRequestParameters;
     public static HashMap<String, String> headers;
     HashMap<String, String> values;
-    ResultSet resultSet;
 
     public CommonMethods() {
 
@@ -27,7 +23,6 @@ public class CommonMethods {
         headers.put("content-type", "application/json");
 
     }
-
 
     /**
      * common method to get the size of the object in the response
@@ -51,7 +46,6 @@ public class CommonMethods {
 
     }
 
-
     public static void verifyNotNull(Object actual, String message) {
         try {
             Assert.assertNotNull(actual, message);
@@ -60,7 +54,6 @@ public class CommonMethods {
         }
 
     }
-
 
     public static void verifyEquals(Object actual, Object expected, String message) {
 
