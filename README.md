@@ -19,4 +19,4 @@ To run tests following steps needs to be followed:
 
 - The execution report will be saved in HTML format with name ```Index.html```
 Example:
-![](Screenshot 2022-11-19 at 4.08.33 PM.png)
+![](https://github.com/SonaliSihra/TestVagrantRCB/blob/ff49298206fcafa3961218cd5bb143fd5666f852/Screenshot%202022-11-19%20at%204.08.33%20PM.png)
